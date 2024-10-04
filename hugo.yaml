@@ -2,6 +2,7 @@ baseURL: "https://saishreyakumar.github.io"
 languageCode: "en-us"
 title: "Sai Shreya Kumar"
 theme: hugo-profile
+publishDir: "docs"
 
 Paginate: 3
 disqusShortname: your-disqus-shortname
