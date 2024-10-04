@@ -1,0 +1,211 @@
+baseURL: "https://saishreyakumar.github.io"
+languageCode: "en-us"
+title: "Sai Shreya Kumar"
+theme: hugo-profile
+
+Paginate: 3
+disqusShortname: your-disqus-shortname
+googleAnalytics: G-YOUR-GOOGLE-ANALYTICS-ID
+canonifyURLs: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "light"
+    color:
+      secondaryBackgroundColor: "Blue"
+
+  navbar:
+    position: absolute
+
+  hero:
+    enable: true
+    intro: "Hi there! I'm"
+    title: "Sai Shreya Kumar"
+    content: "Data Science and Software Engineering Enthusiast"
+    image: "images/sai.jpg"
+    button:
+      enable: true
+      name: "View Resume"
+      url: "https://github.com/saishreyakumar/resume"
+      background-color: "#4CAF50"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/saishreyakumar
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/saishreyakumar
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/saik.jpg"
+    content: |-
+      I am a master's student in Computer Science at the University of Illinois - Urbana-Champaign, specializing in Machine Learning and Data Science. I have extensive experience in software development, cloud computing, and deploying scalable machine learning solutions.
+
+    skills:
+      enable: true
+      title: "Skills:"
+      items:
+        - "Python, C++, C#, Java, JavaScript, R"
+        - "TensorFlow, Keras, PyTorch, Scikit-learn, NLP"
+        - "Microsoft Azure, Docker, Kubernetes, SQL, MongoDB, PostgreSQL"
+        - "ETL Pipelines, Apache Airflow, Tableau, Power BI"
+
+  experience:
+    enable: true
+    title: "Professional Experience"
+    items:
+      - job: "Data Science Intern"
+        company: "K1X, Inc"
+        companyUrl: "https://example.com"
+        date: "June 2024 - Present"
+        info:
+          enable: true
+          content: "Location: Remote, United States"
+        content: |
+          - Developed a tax form variant detection feature, improving accuracy and processing efficiency by 30%, leveraging Microsoft Azure for scalable cloud storage and Azure Functions for serverless compute.
+          - Built the K1X Aggregator using Python, Scikit-learn, TensorFlow, and Keras, integrating ML models for tax form classification and automated data ingestion using ETL pipelines with Apache Airflow.
+          - Created and maintained data visualization dashboards using Tableau and Power BI, improving data accessibility and enhancing decision-making.
+          - Collaborated with cross-functional teams to streamline the machine learning models' deployment in the cloud using Docker and Kubernetes.
+
+      - job: "Machine Learning Engineer"
+        company: "University of Illinois Urbana-Champaign"
+        companyUrl: "https://illinois.edu"
+        date: "January 2024 - May 2024"
+        info:
+          enable: true
+          content: "Location: Champaign, United States"
+        content: |
+          - Fine-tuned LLMs and RNNs (LSTM, GRU, ConvLSTM) using TensorFlow and PyTorch, improving streamflow prediction accuracy by 25%.
+          - Collaborated with Meta, Uber, and Microsoft to deploy scalable ML models using Apache Spark and GPU acceleration, enabling real-time analysis for water management systems.
+          - Migrated the LSPC watershed system to a high-performance .NET console application, integrating ML-driven optimizations such as adaptive learning rates, dynamic resource allocation, and parallel data processing.
+          - Designed and implemented cloud-based solutions for handling large datasets, improving data throughput by 20% using scalable APIs.
+
+      - job: "Data Science Intern"
+        company: "Tenacitics"
+        companyUrl: "https://example.com"
+        date: "October 2021 - February 2022"
+        info:
+          enable: true
+          content: "Location: Remote"
+        content: |
+          - Developed interactive data visualization dashboards using JavaScript, Django, Plotly, and Grid-stack.js, improving data accessibility by 30%.
+          - Designed and implemented custom machine learning models using Python, Pandas, and Scikit-learn to identify trends, resulting in a 10% increase in customer satisfaction.
+          - Integrated PostgreSQL for real-time data retrieval and APIs for enhanced performance and security.
+          - Optimized the backend for high-traffic scenarios, improving the system's overall performance by 15%.
+
+      - job: "Software Developer Intern"
+        company: "Shivanjali"
+        companyUrl: "https://example.com"
+        date: "May 2021 - July 2021"
+        info:
+          enable: true
+          content: "Location: Remote"
+        content: |
+          - Created an in-house UI library to improve reusability by 30%, using React.js for the front-end.
+          - Developed and deployed scalable backend systems using Node.js and Express, integrating RESTful APIs to improve data flow between front-end and back-end.
+          - Led a team to enhance the platform's user experience, increasing engagement by 15%.
+          - Implemented automated testing and CI/CD pipelines, reducing deployment times by 25%.
+
+  education:
+    enable: true
+    title: "Education"
+    items:
+      - title: "Master's in Computer Science"
+        school:
+          name: "University of Illinois Urbana-Champaign"
+          url: "https://illinois.edu"
+        date: "2023 - 2025"
+        GPA: "3.94/4"
+        content: |
+          Coursework: Applied Machine Learning, Database Systems, Data Mining Principles, Advanced Information Retrieval, Computer Security, Advanced Competitive Algorithm Programming.
+          Extracurricular Activities:
+            - Graduate Research Assistant: Migrated the LSPC watershed modeling system to a high-performance .NET console application, improving scalability and computational efficiency.
+            - Led architectural transitions and implemented ML optimizations for hydrology and sediment simulation modules.
+            - Collaborated on research projects focused on the integration of ML models in water quality simulations.
+            - Selected for the Amazon ML Summer School.
+            - Participated in university research on Large Language Models (LLMs).
+
+      - title: "Bachelor's in Computer Science"
+        school:
+          name: "SRM Institute of Science and Technology"
+          url: "https://srmist.edu.in"
+        date: "2019 - 2023"
+        GPA: "4/4"
+        content: |
+          Coursework: Artificial Intelligence, Machine Learning, Data Structures, Algorithms, Cloud Computing, Big Data Analytics, Computer Networks, Operating Systems.
+          Extracurricular Activities:
+            - Awarded the Best All Rounder for the 2019-2023 batch.
+            - Organized a Full Stack Web Development Workshop on behalf of the Design and Innovation (DI) Club.
+            - Organized and conducted a 24-hour Hackathon "HackFest2k23" for college students.
+            - Organized EduCodathon for school students on behalf of DI Club.
+            - Undertook the TCEDS Diploma in Python and received 91%.
+            - Full Stack Web Development Certification of 55 hours from Udemy.
+            - Helped in developing the IRCICD'22 website for the department and the college.
+            - Won the Special Recognition Award in the Rotaract Club of Guindy for being Chairperson of the "Say Yes to Yoga" event.
+
+  achievements:
+    enable: true
+    title: "Achievements"
+    items:
+      - title: "President, Design and Innovation Club"
+        content: "Led the club in organizing workshops on AI and full-stack development for over 200 students."
+      - title: "Green Chameleon Algorithm"
+        content: "Published research on the Green Chameleon Algorithm, accepted by Springer, 2024."
+        url: "https://example.com"
+      - title: "Best All Rounder (Batch 2019-2023)"
+        content: "Awarded the Best All Rounder of the 2019-2023 batch at SRM Institute of Science and Technology."
+      - title: "National Hackathon Winner"
+        content: "Won the Best All-Girls Team Award in HackWIE and HackNITR 2.0 (2020, 2021), National Level Hackathons."
+
+  projects:
+    enable: true
+    title: "Projects"
+    items:
+      - title: "NoteScribe"
+        content: "Developed an AI-driven note-taking application using Flask, Azure, and OpenAI Whisper, enabling real-time transcription and summarization from audio files."
+        image: /images/projects/notescribe.png
+        featured:
+          name: "Demo"
+          link: "https://github.com/saishreyakumar"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/saishreyakumar"
+
+      - title: "Agentic LLM Framework"
+        content: "Built an agentic framework for real-time healthcare automation using PyTorch, integrating Large Language Models (LLMs) for decision-making."
+        image: /images/projects/agentic-framework.png
+        featured:
+          name: "Demo"
+          link: "https://github.com/saishreyakumar"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/saishreyakumar"
+
+      - title: "A.T.A.C - A Tech Against COVID"
+        content: "Led the development of a healthcare application using Google Cloud and TensorFlow, reducing report processing time by 40% through real-time ML model integration."
+        image: /images/projects/atac.png
+        featured:
+          name: "Demo"
+          link: "https://github.com/saishreyakumar"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/saishreyakumar"
+
+  contact:
+    enable: true
+    content: "Feel free to reach out via email or connect with me on LinkedIn!"
+    email: "ssk12@illinois.edu"
+    btnName: "Mail me"
+
+footer:
+  recentPosts: false
+  socialNetworks:
+    github: https://github.com/saishreyakumar
+    linkedin: https://linkedin.com/in/saishreyakumar
